@@ -1,0 +1,138 @@
+t=turtle
+t.home()
+t.clear
+
+for j in range(4):
+  t.forward(100)
+  t.left(90)
+  for i in range(4):
+    t.forward(100)
+    t.left(90)
+
+
+
+import turtle
+
+
+t = turtle.Turtle()
+
+
+
+
+
+t.home()
+
+
+t.clear()
+
+
+
+
+
+for x in range(4):
+  t.up()
+  t.forward(20)
+  t.down()
+  for x in range(4):
+    t.forward(100)
+    t.left(90)
+  t.left(-90)
+
+print('hello')
+
+
+
+#import turtle
+#t = turtle.Turtle()
+
+t.home()
+t.clear()
+
+for i in range(6):
+  t.forward(100)
+  t.left(60)
+
+print('hello')
+  
+
+
+def func():
+  i = 3
+  return i
+
+func()
+
+
+
+def func(v):  v‚ðparameter‚Æ‚¢‚¤
+  i = v + 3
+  return i
+
+func(5)     5‚ðargument‚Æ‚¢‚¤
+
+
+def total(n):
+  s = 0
+  for i in range(1, n + 1):
+    s += i
+  return s
+
+total(5)
+
+total(10)
+
+
+
+def center_circle():
+  t.penup()
+  t.forward(200) 
+  t.left(90)
+  t.pendown()
+  t.circle(200)
+  t.left(90)
+  t.penup()
+  t.forward(200)
+  t.pendown()
+
+center_circle()
+
+
+
+
+def circle(x, y, r = 150):
+
+
+  t.up()
+
+  
+  t.home()
+
+ 
+  t.forward(x)
+
+ 
+  t.left(90)
+
+  
+  t.forward(y)
+
+  
+  t.forward(r)
+
+   
+  t.left(90)
+
+  
+  t.down()
+
+  
+  t.circle(r)
+
+
+
+
+
+t.home()
+
+
+t.clear()
